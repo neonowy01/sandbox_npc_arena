@@ -1,0 +1,214 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc28:version{fb63b6ca-f435-4aa0-a2c7-c66ddc651dca} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					{
+						_class = "RenderMeshFile"
+						filename = "models\\dmx\\mesh\\button.dmx"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "button"
+						filename = "models/dmx/mesh/button.dmx"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
+			{
+				_class = "MaterialGroupList"
+				children = 
+				[
+					{
+						_class = "MaterialGroup"
+						name = "captain"
+						remaps = 
+						[
+							{
+								from = "materials/grunt_icon.vmat"
+								to = "materials/captain_icon.vmat"
+							},
+						]
+					},
+					{
+						_class = "MaterialGroup"
+						name = "charger"
+						remaps = 
+						[
+							{
+								from = "materials/grunt_icon.vmat"
+								to = "materials/charger_icon.vmat"
+							},
+						]
+					},
+					{
+						_class = "MaterialGroup"
+						name = "supp"
+						remaps = 
+						[
+							{
+								from = "materials/grunt_icon.vmat"
+								to = "materials/supp_icon.vmat"
+							},
+						]
+					},
+					{
+						_class = "MaterialGroup"
+						name = "zombie"
+						remaps = 
+						[
+							{
+								from = "materials/grunt_icon.vmat"
+								to = "materials/zombie_icon.vmat"
+							},
+						]
+					},
+					{
+						_class = "MaterialGroup"
+						name = "zombiea"
+						remaps = 
+						[
+							{
+								from = "materials/grunt_icon.vmat"
+								to = "materials/zombiea_icon.vmat"
+							},
+						]
+					},
+					{
+						_class = "MaterialGroup"
+						name = "headcrab"
+						remaps = 
+						[
+							{
+								from = "materials/grunt_icon.vmat"
+								to = "materials/headcrab_icon.vmat"
+							},
+						]
+					},
+					{
+						_class = "MaterialGroup"
+						name = "headcrab_copy"
+						remaps = 
+						[
+							{
+								from = "materials/grunt_icon.vmat"
+								to = "materials/headcraba_icon.vmat"
+							},
+						]
+					},
+					{
+						_class = "MaterialGroup"
+						name = "headcrab_copy_copy"
+						remaps = 
+						[
+							{
+								from = "materials/grunt_icon.vmat"
+								to = "materials/poison_icon.vmat"
+							},
+						]
+					},
+					{
+						_class = "MaterialGroup"
+						name = "reviver"
+						remaps = 
+						[
+							{
+								from = "materials/grunt_icon.vmat"
+								to = "materials/reviver_icon.vmat"
+							},
+						]
+					},
+					{
+						_class = "MaterialGroup"
+						name = "antlion"
+						remaps = 
+						[
+							{
+								from = "materials/grunt_icon.vmat"
+								to = "materials/antlion_icon.vmat"
+							},
+						]
+					},
+					{
+						_class = "MaterialGroup"
+						name = "antlion_copy"
+						remaps = 
+						[
+							{
+								from = "materials/grunt_icon.vmat"
+								to = "materials/worker_icon.vmat"
+							},
+						]
+					},
+					{
+						_class = "MaterialGroup"
+						name = "exit"
+						remaps = 
+						[
+							{
+								from = "materials/grunt_icon.vmat"
+								to = "materials/exit_icon.vmat"
+							},
+						]
+					},
+					{
+						_class = "MaterialGroup"
+						name = "restart"
+						remaps = 
+						[
+							{
+								from = "materials/grunt_icon.vmat"
+								to = "materials/restart.vmat"
+							},
+						]
+					},
+				]
+			},
+			{
+				_class = "PhysicsShapeList"
+				children = 
+				[
+					{
+						_class = "PhysicsMeshFile"
+						name = "button"
+						parent_bone = ""
+						surface_prop = "default_silent"
+						collision_prop = "default"
+						recenter_on_parent_bone = false
+						offset_origin = [ 0.0, 0.0, 0.0 ]
+						offset_angles = [ 0.0, 0.0, 0.0 ]
+						filename = "models/dmx/mesh/button.dmx"
+						import_scale = 1.0
+						maxMeshVertices = 0
+						qemError = 0.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
+		]
+		model_archetype = "static_prop_model"
+		primary_associated_entity = "prop_static"
+		anim_graph_name = ""
+	}
+}

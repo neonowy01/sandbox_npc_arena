@@ -11,16 +11,6 @@
 				[
 					{
 						_class = "RenderMeshFile"
-						filename = "models\\dmx\\mesh\\button.dmx"
-						import_scale = 1.0
-						import_filter = 
-						{
-							exclude_by_default = false
-							exception_list = [  ]
-						}
-					},
-					{
-						_class = "RenderMeshFile"
 						name = "button"
 						filename = "models/dmx/mesh/button.dmx"
 						import_scale = 1.0
@@ -176,6 +166,61 @@
 							{
 								from = "materials/grunt_icon.vmat"
 								to = "materials/restart.vmat"
+							},
+						]
+					},
+					{
+						_class = "MaterialGroup"
+						name = "redcross"
+						remaps = 
+						[
+							{
+								from = "materials/grunt_icon.vmat"
+								to = "materials/redcross.vmat"
+							},
+						]
+					},
+					{
+						_class = "MaterialGroup"
+						name = "bluecross"
+						remaps = 
+						[
+							{
+								from = "materials/grunt_icon.vmat"
+								to = "materials/bluecross.vmat"
+							},
+						]
+					},
+					{
+						_class = "MaterialGroup"
+						name = "scanner"
+						remaps = 
+						[
+							{
+								from = "materials/grunt_icon.vmat"
+								to = "materials/scanner.vmat"
+							},
+						]
+					},
+					{
+						_class = "MaterialGroup"
+						name = "grenade"
+						remaps = 
+						[
+							{
+								from = "materials/grunt_icon.vmat"
+								to = "materials/grenade_icon.vmat"
+							},
+						]
+					},
+					{
+						_class = "MaterialGroup"
+						name = "manhack"
+						remaps = 
+						[
+							{
+								from = "materials/grunt_icon.vmat"
+								to = "materials/manhack_icon.vmat"
 							},
 						]
 					},
